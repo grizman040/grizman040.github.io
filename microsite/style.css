@@ -20,30 +20,37 @@ h2 {
     text-shadow: 5px 5px red;
 
 }
+
 h2:hover {
     color: #00ffff;
 }
 
 
-.matrix{
+.matrix {
     position: relative;
-    top: 50 %;  
+    top: 50 %;
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 180%;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 
-.text-type{
-  animation: typewriter 5s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+.text-type {
+    animation: typewriter 5s steps(44) 1s 1 normal both,
+        blinkTextCursor 300ms steps(44) 1s infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 15.9em;}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15.9em;
+    }
 }
 
 div {
@@ -65,7 +72,3 @@ footer {
     color: aliceblue;
     text-align: center;
 }
-
-
-
-
