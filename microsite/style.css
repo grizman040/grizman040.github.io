@@ -20,7 +20,10 @@ h2 {
     text-shadow: 5px 5px red;
 
 }
-/* text Wrap*/
+h2:hover {
+    color: #00ffff;
+}
+
 
 .matrix{
     position: relative;
@@ -43,8 +46,6 @@ h2 {
   to{width: 15.9em;}
 }
 
-
-
 div {
     position: fixed;
     bottom: 5%;
@@ -65,10 +66,6 @@ footer {
     text-align: center;
 }
 
-h2:hover {
-    color: #00ffff;
-}
 
-/* end Text Wrap */
 
 
