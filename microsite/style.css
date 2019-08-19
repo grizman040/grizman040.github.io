@@ -40,7 +40,8 @@ h2:hover {
 
 .text-type {
     animation: typewriter 5s steps(44) 1s 1 normal both,
-        blinkTextCursor 300ms steps(44) 1s infinite normal;
+        blinkTextCursor 500ms steps(44) infinite normal;
+
 }
 
 @keyframes typewriter {
