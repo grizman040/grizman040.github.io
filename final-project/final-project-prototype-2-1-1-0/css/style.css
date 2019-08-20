@@ -1,0 +1,35 @@
+
+
+#desktop-nav {
+    display: none;
+}
+
+body {
+    background-color: blueviolet;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+/*              media                 */
+
+@media only screen and (min-width:600px) {
+    #desktop-nav {
+        display: block;
+    }
+
+#mobile-nav {
+    display: none;
+}
+
+body {
+    background-color: rgb(238, 138, 98);
+    font-size: 1.0em;
+}
+
+}
