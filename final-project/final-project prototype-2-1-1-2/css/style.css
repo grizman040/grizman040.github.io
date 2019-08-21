@@ -21,14 +21,14 @@ body {
     left: 0;
 }
 
-nav ul {
+nav.desk ul {
     list-style: none;
     width: 75%;
     height: 60px;
     margin: 0 auto;
 
 }
-nav ul li { 
+nav.desk ul li { 
     width: 20%;
     float: left;
     text-align: center;
@@ -38,23 +38,18 @@ nav ul li {
     transition:  all 0.5s ease;
 }
 
-nav ul li:hover {
+nav.desk ul li:hover {
 
     background: gray;
 }
 
-nav ul li.active {
+nav.desk ul li.active {
     background: gray;
 }
  nav ul li a {
      text-decoration: none;
      color: white;
  }
-
-
-
-
-
 
 /*-------Desktop Nav-------*/
 
