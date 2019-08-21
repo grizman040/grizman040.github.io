@@ -4,131 +4,114 @@
     box-sizing: border-box;
 }
 
-#burger-icon {
 
-
-}
-header {
-    background-color: rgb(150,170,190);   
-}
-
-
-
-/*-----------Desktop Menu Start------*/
 #desktop-nav {
     display: none;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body {
-    background-color: blueviolet;
-    font-size: 1.5em;
+    font-size: 20px;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    color: antiquewhite;
 }
-#desktop-nav {
-    text-transform: uppercase;
+
+#section1 {
+    background-image: url(/img/tv4.jpg);
+    margin-bottom: 10px;
+    height: 30em;
+
 }
-#desktop-nav ul {
+
+}
+
+.text {
     text-align: center;
-    width: 100%;
-    height: 40px;
-    background-color: blueviolet;
-    
-
-    
-    
-}
-#desktop-nav ul li {
-    display: inline-block;
-    padding: 12px;
-    float: right;
-    width: auto;
-    height: 0px;
-    margin: 0 auto;
+    position: -ms-page;
 }
 
-#desktop-nav ul li a {
-    padding: auto;    
-    text-decoration: none;
-    color: rgb(210,220,230); 
-    background-color: rgb(60,70,80); 
-    font-weight: 600;
-
-  
-    
-
-    
-}
-#desktop-nav a:hover {
-    background-color: aquamarine;
-    width: 40px;
+nav {
+    /* Safari */
+    position: sticky;
 }
 
+
+#section2 {
+    margin: 5em;
 }
-/*-------------Desktop Menu End---------*/
 
-/*-------------Mobile Menu Start---------*/
+ul {
+    list-style: none;
 
-#mobile-nav {
-    
+    background-color: rgb(210, 187, 231);
+    overflow: hidden;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+
+
 
 }
 
-#mobile-nav ul{
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    border-radius: 5px;
-
+ul li {
+    float: left;
 }
-#mobile-nav ul li{
+
+li a {
     display: block;
-    width: 100%;
-    
-
-    
-}
-#mobile-nav ul li a{
     text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: aliceblue;
 
 }
-#mobile-nav li:hover {
-    background-color: aqua;
-    border-radius: 5px;
-    
+
+li a:hover {
+    background-color: black
 }
 
-/*-------------Mobile Menu End---------*/
+
+.fixed-header {
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 2;
+    bottom: 0px;
+}
 
 
-/*----------------------------------------------
-                      media start
------------------------------------------------*/
+/*---------Responsitive -------------*/
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width: 600px) {
+
+    #mobile-nav {
+        display: none;
+
+    }
+
     #desktop-nav {
         display: block;
     }
 
-#mobile-nav {
-    display: none;
 }
 
-body {
-    background-color: rgb(238, 138, 98);
-    font-size: 1.0em;
-
-}
-
-
-}
-
-
-
-/*----------------------------------------------
-                      media end
------------------------------------------------*/
-
-
-
-
-
-
+/*---------Responsitive -------------*/

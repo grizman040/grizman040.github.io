@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*------------Body-------*/
+        
+
+
+/*------------Body-------*/
+
+
+
+
+
+/*------------Navigation Mobile Menu-------*/
+
+#mobileNav ul {
+    list-style-type:none;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+
+#mobileNav ul li {
+
+}
+
+#mobileNav li a {
+    text-decoration: none;
+    background-color: rgba(154, 177, 177, 0.719);
+    color: black;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+#bugerIcon {
+    margin: 0 20px;
+}
+div#burgerIcon {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(154, 177, 177, 0.719);
+margin: 3px 0 0 0;
+}
+#burgerIcon:Hover div {
+    background-color: aqua;
+}
+
+#burgerIcon: {
+    cursor: pointer;
+}
+
+
+
+/*------------Navigation Mobile Menu-------*/
+
+/*------------Navigation Desktop Menu-------*/
+#desktopNav {
+    display: none;
+}
+
+#desktopNav ul{
+ list-style: none;   
+ overflow: hidden;
+ background-color: rgba(154, 177, 177, 0.719);
+
+}
+
+#desktopNav ul li {
+    float: left;
+
+}
+
+#desktopNav li a {
+    display: block;
+    text-align-last: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black
+
+}
+
+#desktopNav li a:hover {
+    background-color: aqua;
+}
+
+
+
+/*------------Navigation Desktop Menu-------*/
+
+
+
+/*------------Media-------*/
+@media only screen and ( min-width:600px){
+
+#mobileNav {
+    display: none;
+}
+#desktopNav {
+    display: block;
+}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------Media-------*/
+
+
