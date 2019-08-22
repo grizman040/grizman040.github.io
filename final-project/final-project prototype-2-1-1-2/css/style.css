@@ -38,12 +38,12 @@ nav.desk ul li {
     transition:  all 0.5s ease;
 }
 
-nav.desk ul li:hover {
+nav ul li:hover {
 
     background: gray;
 }
 
-nav.desk ul li.active {
+nav ul li.active {
     background: gray;
 }
  nav ul li a {
@@ -54,28 +54,76 @@ nav.desk ul li.active {
 /*-------Desktop Nav-------*/
 
 /*-------Mobile Nav-------*/
-
-    nav.mob {
+    nav.mob,
+    #burger {
         display: none;
     }
+
+    /*
+    #burger {
+        margin: 0 20px;
+    }
+    
+    #burger div {
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: rgba(150,160,170,0.9);
+        margin: 3px 0 0 0;
+    }
+    
+    
+    #burger:hover div {
+        background-color: rgb(160,170,180);
+    }
+    
+    #burger:hover {
+    cursor: pointer;
+        }
     
 
 
 
 
 
-
-/*-------Mobile Nav-------*/
+-------Mobile Nav-------*/
 /*----------Media---------*/
 
 @media screen and (max-width: 700px){
     nav.desk {
         display: none;
     }
-        nav.mob {
+        nav.mob,
+        #burger {
             display: block;
         }
 
+#burger {
+    position: relative;
+}
+#burger .fa-bars,
+#burger .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+.mob ul {
+    margin-top: 60px;
+    background: #364a4b;
+    display: none;
+}
+.mob li {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+}
+.mob ul.active {
+    display: block;
+}
 }
 
 
