@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.backImg,
+.skillBG{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/tast.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+
+.profile{
+    width: 400px;
+    background-color: rgba(0,0,0, 0.50);
+    padding: 30px 0;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+img{
+    height: 300px;
+    border-radius: 50%;
+}
+.profileText h2{
+    margin-bottom: 10px;
+    font-weight: 500px;
+    font-size: 220%;
+}
+.profileText h3{
+    font-size: 150%
+}
+i {
+    padding: 10px 10px;
+}
+ i:hover {
+    color:rgb(57, 140, 212);
+}
+
+button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+button:hover {
+    background-color: rgb(46, 45, 45)
+}
+
+
+/** -------------progressbar----**/
+
+.container {
+    width: 70%;
+    background-color: #ddd;
+    margin: 0 auto;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 90%; background-color: #2196F3;}
+  .js {width: 70%; background-color: #f44336;}
+  .php {width: 30%; background-color: #808080;}
+  .photoshop {width: 99%; background-color: #ff0808;}
+  .ilustrator {width: 77%; background-color: #086bff;}
+  .max {width: 77%; background-color: #086bff;}
+  .macromedia {width: 60%; background-color: #04f124;}
+
+/** -------------progressbar----**/
+
+
+
+/** -------------right colomn----**/
+
+
+
+.bio{
+    width: 900px;
+    height: 350px;
+    background-color: rgba(0,0,0, 0.50);
+    border-radius: 15px;
+    margin-left: 100px;
+    padding: 20px 0;
+
+
+}
+
+
+
+
+.skillContent {
+    width: 90%;
+    height: 75%;
+    background-color: rgba(0,0,0, 0.50);
+    border-radius: 15px;
+    margin-left: 100px;
+    padding: 20px 0;
+    
+ 
+}
+ i {
+    font-size:px%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
