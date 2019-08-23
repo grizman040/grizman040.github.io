@@ -8,7 +8,7 @@
 .skillBG{
     width: 100%;
     height: 100vh;
-    background-image: url(img/tast.jpg);
+    background-image: url(/img/tast.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
