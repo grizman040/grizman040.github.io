@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-----------------NAVBAR--------------*/
+.navigation-bar{
+    background-color: coral;
+    overflow: auto;
+    width: 100%;
+
+}
+
+.navigation-bar ul {
+height: 50px;
+display: block;
+
+
+    
+
+}
+.navigation-bar ul li {
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    padding: 15px 17px;
+    
+
+
+}
+
+.navigation-bar ul li a {
+text-decoration: none;
+
+}
+.navigation-bar ul li:hover{
+    background: wheat
+}
+
+/*-----------------NAVBAR--------------*/
+
+
+.despre{
+    background-image: url(/img/123.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 9di00px;
+}
+
+
+.produse{
+    background: green;
+    width: 100%;
+    height: 440px;
+
+}
+
+.livrare{
+    width: 100%;
+    height: 440px;
+}
+
+.contact{
+    background: blue;
+    width: 100%;
+    height: 440px;
+    position: relative;
+}
+
+
+
+@media screen and (min-width:700px) {
+
+    .navigation-bar a {
+        float: none;
+        display: block;
+    }
+
+
+}
