@@ -5,43 +5,6 @@
 }
 
 
-/*-----------------NAVBAR--------------*/
-.navigation-bar{
-    background-color: coral;
-    overflow: auto;
-    width: 100%;
-
-}
-
-.navigation-bar ul {
-height: 50px;
-display: block;
-
-
-    
-
-}
-.navigation-bar ul li {
-    text-align: center;
-    display: inline-block;
-    height: 50px;
-    padding: 15px 17px;
-    
-
-
-}
-
-.navigation-bar ul li a {
-text-decoration: none;
-
-}
-.navigation-bar ul li:hover{
-    background: wheat
-}
-
-/*-----------------NAVBAR--------------*/
-
-
 .despre{
     background-size: cover;
     width: 100%;

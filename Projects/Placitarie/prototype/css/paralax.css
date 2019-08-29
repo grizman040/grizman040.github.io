@@ -44,7 +44,23 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  
 }
+button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+
+}
+
+button a{
+    text-decoration: none;
+ color: #fff;
+}
+
 
 h3 {
   letter-spacing: 5px;
@@ -59,3 +75,31 @@ h3 {
     background-attachment: scroll;
   }
 }
+
+
+/*-----------------NAVBAR--------------*/ 
+
+#navigation-bar {
+  list-style: none;
+  position: absolute;
+  top: 70px;
+left: 50%;
+background-color: black
+  
+}
+#navigation-bar li {
+display: inline-block;
+padding: 18px 20px;
+
+
+}
+
+#navigation-bar li a {
+  text-decoration: none;
+
+}
+#navigation-bar ul li a:hover{
+  
+}
+
+/*-----------------NAVBAR--------------*/
