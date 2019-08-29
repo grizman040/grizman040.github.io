@@ -16,7 +16,9 @@
     text-align: center;
     position: relative;
 }
-
+.skillBG {
+    background-image: url(/img/teren.jpg);
+}
 .profile{
     width: 400px;
     background-color: rgba(0,0,0, 0.50);
@@ -60,32 +62,11 @@ button:hover {
 }
 
 
-/** -------------progressbar----**/
 
-.container {
-    width: 70%;
-    background-color: #ddd;
-    margin: 0 auto;
-  }
-  
-  .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-  }
-  
-  .html {width: 90%; background-color: #4CAF50;}
-  .css {width: 90%; background-color: #2196F3;}
-  .js {width: 70%; background-color: #f44336;}
-  .php {width: 30%; background-color: #808080;}
-  .photoshop {width: 99%; background-color: #ff0808;}
-  .ilustrator {width: 77%; background-color: #086bff;}
-  .max {width: 77%; background-color: #086bff;}
-  .macromedia {width: 60%; background-color: #04f124;}
-
-/** -------------progressbar----**/
-
+.graphic {
+padding:  40px 0;   
+width: 100%;
+ }
 
 
 /** -------------right colomn----**/
@@ -116,8 +97,11 @@ button:hover {
     
  
 }
- i {
-    font-size:px%;
+
+.skillContent h2 {
+    font-size: 40px;
+    color: rgb(114, 79, 211);
+    padding: 20px 10px;
 }
 
 

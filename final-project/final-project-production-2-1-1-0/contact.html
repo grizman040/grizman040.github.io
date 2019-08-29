@@ -2,55 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/homestyle.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Skills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/homestyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Special+Elite|Varela+Round&display=swap"
+    rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Write Me</title>
 </head>
 
-<body>
-        <div class="desk">
-                <a class="active" href="index.html"></i> Home</a> 
-                <a href="me.html">About Me</a>
-                <a href="skills.html"></About> Skills</a> 
-                <a href="contact.html"></i> Contact</a> 
-              </div>
-        <div class="principal">
-                <div class="form">
-                  <h3>Fill free to write me !!!</h3>
-                  <form action="/action_page.php">
-                    <input
-                      type="text"
-                      id="fname"
-                      name="firstname"
-                      placeholder="Your First Name..."
-                    />
-      
-                    <input
-                      type="text"
-                      id="lname"
-                      name="lastname"
-                      placeholder="Your Last name..."
-                    />
-                    <div class="col-75">
-                      <textarea
-                        id="subject"
-                        name="subject"
-                        placeholder="Write Here your message.."
-                        style="height:200px"
-                      ></textarea>
-                    </div>
-      
-                    <input type="submit" value="Submit" />
-                  </form>
-                </div>
-              </div>
-            
-    <footer class="foot">
-        <p>Creater by Mirzenco Constantin @2019 on DCI Courses</p>
-    </footer>
+<body class="contact-body">
+  <div class="desk">
+    <p>Mirzenco Constantin</p>
+    <a class="active" href="index.html"></i> Home</a>
+    <a href="me.html">About Me</a>
+    <a href="skills.html"></About> Skills</a>
+    <a href="contact.html"></i> Contact</a>
+  </div>
+
+
+  <div class="contact-title">
+
+    <h1>Say Hello</h1>
+    <h2>I'll be very glad to hear You !!!</h2>
+
+  </div>
+
+
+<form class="contact-form">
+
+<div id="contact-form" method="post" action="">
+<input  name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+<input  name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+
+<textarea name="message" type="text" class="form-control" placeholder="Your message here..." rows="4" required>
+</textarea><br>
+
+<button type="submit" class="form-control submit" value="SEND MESSAGE">SEND MESSAGE</button><br>
+</form>
+
+</div>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+  <footer class="foot">
+    <p>Creater by Mirzenco Constantin @2019 on DCI Courses</p>
+  </footer>
 </body>
 
 </html>
