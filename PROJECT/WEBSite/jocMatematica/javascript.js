@@ -43,6 +43,8 @@ for(i=1; i<5; i++){
             if (this.innerHTML == correctAnswer) {
                 score++;
                 document.getElementById("scorevalue").innerHTML = score;
+                // (scoreValue < 0);
+                // document.getElementById("score").style.color = "yellowgreen";
                 // hide the wrongbox
                 hide("wrongAnswer");
                 show("correctAnswer");
@@ -52,6 +54,10 @@ for(i=1; i<5; i++){
                 // generate new QA
                 generateQA();
             } else {
+                score--;
+                document.getElementById("scorevalue").innerHTML = score;
+                // (scoreValue > 0);
+                // document.getElementById("score").style.color = "red";
                 show("wrongAnswer");
                 hide("correctAnswer");
                 setTimeout(function () {
