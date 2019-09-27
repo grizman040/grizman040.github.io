@@ -14,7 +14,7 @@ document.getElementById("startGame").onclick = function () {
     } else {
         playing = true;
         score = 0;   // set score to 0
-        document.getElementById("scorevalue").innerHTML = score;
+        document.getElementById("scoreValue").innerHTML = score;
         show("timer");// show countdown box
         timeRemaining = 60;
         document.getElementById("timerValue").innerHTML = timeRemaining;
@@ -42,9 +42,9 @@ for(i=1; i<5; i++){
         if (playing == true) {//yes
             if (this.innerHTML == correctAnswer) {
                 score++;
-                document.getElementById("scorevalue").innerHTML = score;
-                // (scoreValue < 0);
-                // document.getElementById("score").style.color = "yellowgreen";
+                document.getElementById("scoreValue").innerHTML = score;
+                //  (scoreValue <0);
+                //   document.getElementById("score").style.backgroundColor = "yellowgreen";
                 // hide the wrongbox
                 hide("wrongAnswer");
                 show("correctAnswer");
@@ -55,9 +55,9 @@ for(i=1; i<5; i++){
                 generateQA();
             } else {
                 score--;
-                document.getElementById("scorevalue").innerHTML = score;
-                // (scoreValue > 0);
-                // document.getElementById("score").style.color = "red";
+                document.getElementById("scoreValue").innerHTML = score;
+                //  (scoreValue >0);
+                //   document.getElementById("score").style.backgroundColor = "red";
                 show("wrongAnswer");
                 hide("correctAnswer");
                 setTimeout(function () {
