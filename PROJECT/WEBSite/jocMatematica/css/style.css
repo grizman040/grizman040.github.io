@@ -1,9 +1,5 @@
 body{
-<<<<<<< HEAD
-    background: url(img/bg.jpg);
-=======
-    background: url(img/bg.jpg.jpg);
->>>>>>> ae28ba84e671a2d5ca09ee14c0ae8e9c25630821
+    background: grey;
 }
 #container {
     width: 800px;
