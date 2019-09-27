@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>change HTML Content</title>
+</head>
+<body>
+
+<div class="blue" id="facebook">
+    <h2>Facebook</h2>
+
+</div>
+<div class="green" id="apple">
+    <h2>Apple</h2>
+
+</div>
+
+<div class="red">
+    <h2>Liverpool</h2>
+
+</div>
+<button id="button">Change Facebook</button>
+<button id="button1">Creaza lista</button>
+<script>
+    document.getElementById("button1").onclick=function() {
+    
+    
+    document.getElementById("apple").innerHTML = "<ul><li>Nokia</li><li>Sony</li><li>Samsung</li><li>Philips</li></ul>"
+
+    }
+
+</script>
+
+
+    <script type="text/javascript" src="/js/code.js"></script>
+</body>
+</html>
