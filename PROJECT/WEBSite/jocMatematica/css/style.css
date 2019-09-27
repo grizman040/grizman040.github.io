@@ -21,7 +21,7 @@ body{
     text-align: center;
     margin-left: 700px;
     margin-top: 8px;
-    line-height: 35px;
+    line-height: 40px;
     position: absolute;
     border-radius: 5px;
     font-weight: bold;
@@ -46,7 +46,7 @@ body{
 
 
 #wrongAnswer {
-    width: 100px;
+    width: 80px;
     height: 40px;
     background: rgb(231, 54, 10);
     text-align: center;
@@ -59,7 +59,6 @@ body{
     font-weight: bold;
     border-radius: 5px;
     box-shadow: 0px  5px rgba(3, 3, 3, 0.2);
-}
 }
 
 #question {
