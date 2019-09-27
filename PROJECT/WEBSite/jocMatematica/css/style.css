@@ -1,5 +1,5 @@
 body{
-    background: grey;
+    background-image: url(/img/bg.jpg);
 }
 #container {
     width: 800px;
