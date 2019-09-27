@@ -20,7 +20,7 @@ document.getElementById("startGame").onclick = function () {
         document.getElementById("timerValue").innerHTML = timeRemaining;
         hide("gameOver");
 
-        document.getElementById("startGame").innerHTML = "Reset Game";
+        document.getElementById("startGame").innerHTML = "Restart Joc";
 hide("theme");
 
 
@@ -62,19 +62,6 @@ for(i=1; i<5; i++){
 
     }
 }
-// if we click on answer box
-// if we are playing
-// corect?
-// yes
-// increase score
-// show corect score for 1sec
-// generate new Q&A
-// no
-// show try again for 1 sec
-
-
-// functions
-// start countdown
 function startCountdown() {
     action = setInterval(function () {
         timeRemaining -= 1;
@@ -84,12 +71,12 @@ function startCountdown() {
             stopCountdown();
             show("gameOver");
             document.getElementById("gameOver").innerHTML =
-                "<p>Game Over!</p><p>Your Score is " + score + ".</p>";
+                "<p>Sfirsit !</p><p>Scorul tau este: " + score + ".</p>";
             hide("timer");
             hide("correctAnswer");
             hide("wrongAnswer");
             playing = false;
-            document.getElementById("startGame").innerHTML = "Start Game";
+            document.getElementById("startGame").innerHTML = "Start Joc";
         }
     }, 1000);
 

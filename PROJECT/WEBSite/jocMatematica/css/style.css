@@ -44,7 +44,7 @@ body{
 }
 
 #wrongAnswer {
-    width: 80px;
+    width: 100px;
     height: 40px;
     background: rgb(231, 54, 10);
     text-align: center;
@@ -126,6 +126,7 @@ body{
     width: 85px;
     height: 20px;
     padding: 10px;
+    text-align: center;
     margin: 0px auto;
     background: lightsteelblue;
     border-radius: 5px;
