@@ -20,7 +20,7 @@ document.getElementById("startGame").onclick = function () {
         document.getElementById("timerValue").innerHTML = timeRemaining;
         hide("gameOver");
 
-        document.getElementById("startGame").innerHTML = "Restart Joc";
+        document.getElementById("startGame").innerHTML = "Restart Game";
 hide("theme");
 
 
@@ -77,7 +77,7 @@ function startCountdown() {
             stopCountdown();
             show("gameOver");
             document.getElementById("gameOver").innerHTML =
-                "<p>Sfirsit !</p><p>Scorul tau este: " + score + ".</p>";
+                "<p>Sfirsit !</p><p>Your's score is: " + score + ".</p>";
             hide("timer");
             hide("correctAnswer");
             hide("wrongAnswer");
