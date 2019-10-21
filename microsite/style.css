@@ -68,7 +68,7 @@ footer {
     position: static;
     width: 100%;
     height: 30px;
-    background-color: black;
+    background-color: rgb(235, 54, 54);
     color: aliceblue;
     text-align: center;
 }
