@@ -1,0 +1,120 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(/img/architecture-bridge-building-220769.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+
+
+}
+.intro .inner {
+
+    display: table-cell;
+    vertical-align: middle;
+    max-width: none;
+    width: 100%;
+}
+
+.content {
+    max-width: 700px;
+    margin:0 auto ;
+    text-align: center;
+ 
+}
+.content h1 {
+    font-size: 300%;
+    font-family: 'Special Elite', cursive;
+}
+
+.btn {
+    border-radius: 9px;
+    color: #3cb9cf;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: solid 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+    color: antiquewhite;
+    border: solid antiquewhite 3px;
+}
+.matrix {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    margin:0 auto;
+    right: 0;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.text-type {
+    animation: typewriter 5s steps(30) 1s 01 normal both,
+        blinkTextCursor 600ms steps(50) 3s infinite normal;
+
+}
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 11em;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+
+.content h1 {
+    font-size: 250%;
+}
+
+
+.btn {
+    font-size: 110%;
+    padding: 7px 15px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

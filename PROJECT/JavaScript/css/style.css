@@ -1,0 +1,19 @@
+.blue, .green, .red{
+    width: 80%;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.blue {
+    background: blue;
+}
+.green {
+    background: greenyellow;
+}
+
+.red{
+    background: red;
+
+}
+
+

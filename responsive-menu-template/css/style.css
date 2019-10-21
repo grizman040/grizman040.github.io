@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header {
+    background: url("/tv4.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    margin-top: 60px;
+}
+
+/*-------Desktop Nav-------*/
+
+
+.container nav.desk,
+.container nav.mob {
+    width: 100%;
+    background: #364a4b;
+    height: 60px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+nav.desk ul {
+    list-style: none;
+    width: 75%;
+    height: 60px;
+    margin: 0 auto;
+
+}
+
+nav.desk ul li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+nav ul li:hover {
+
+    background: gray;
+}
+
+nav ul li.active {
+    background: gray;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------Desktop Nav-------*/
+
+/*-------Mobile Nav-------*/
+nav.mob,
+#burger {
+    display: none;
+}
+
+/*
+    #burger {
+        margin: 0 20px;
+    }
+    
+    #burger div {
+        width: 30px;
+        height: 5px;
+        border-radius: 2px;
+        background-color: rgba(150,160,170,0.9);
+        margin: 3px 0 0 0;
+    }
+    
+    
+    #burger:hover div {
+        background-color: rgb(160,170,180);
+    }
+    
+    #burger:hover {
+    cursor: pointer;
+        }
+    
+
+
+
+
+
+-------Mobile Nav-------*/
+/*----------Media---------*/
+
+@media screen and (max-width: 700px) {
+    nav.desk {
+        display: none;
+    }
+
+    nav.mob,
+    #burger {
+        display: block;
+    }
+
+    #burger {
+        position: relative;
+    }
+
+    #burger .fa-bars,
+    #burger .fa-times {
+        position: fixed;
+        right: 25px;
+        top: 15px;
+        font-size: 35px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .mob ul {
+        margin-top: 60px;
+        background: #364a4b;
+        display: none;
+        opacity: 0.7;
+    }
+
+    .mob li {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px;
+        cursor: pointer;
+       
+    }
+
+    .mob ul.active {
+        display: block;
+    }
+    .container nav.mob {
+        
+    }
+}
+
+
+/*----------Media---------*/

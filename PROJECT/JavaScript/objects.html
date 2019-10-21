@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Objects</title>
+</head>
+<body>
+    <p>Javascript</p>
+    <script>
+    var myPhone = {
+        brand : "Apple",
+        model:"iphone4",
+        warranty:12,
+        color:"white",
+    };
+    window.console.log(myPhone);
+    delete myPhone.warranty;
+    window.console.log(myPhone);
+    window.console.log(myPhone.model);
+
+    var myOtherPhone = myPhone;
+    window.console.log(myOtherPhone);
+    myOtherPhone.model = "iphone5";
+    window.console.log(myOtherPhone);
+    window.console.log(myPhone);
+    
+    </script>
+    
+</body>
+</html>

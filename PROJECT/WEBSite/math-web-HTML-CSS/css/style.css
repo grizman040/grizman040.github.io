@@ -1,0 +1,169 @@
+
+#container {
+    width: 1050px;
+    height: 100px;
+    margin: auto;
+
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    height: 100px;
+    padding: 10px opx;
+
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#brand {
+    float: left;
+}
+
+#searchbox {
+    float: right;
+    background: linear-gradient(blue, black);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+
+
+
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: white url(/img/logo.png) right center no-repeat;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    background: aquamarine;
+}
+
+#menu {
+    height: 70px;
+    width: 90%;
+    background: linear-gradient(yellow, green);
+    padding: 7px 0;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 40px;
+    height: 30px;
+    border-right: 1px solid blueviolet;
+
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: blueviolet;
+    line-height: 30px;
+    transition: font-size 0.3s ease
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+#introduction {
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 90%;
+
+
+
+}
+
+#introduction h3 {
+    font-size: 35px;
+    color: blueviolet;
+    text-align: center;
+}
+
+#introduction p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 35%;
+    height: 300px;
+    border: 2px solid greenyellow;
+    padding: 25px 59px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.158);
+    border-radius: 23px;
+}
+.sidebar ul li {
+    padding-bottom: 20px;
+    list-style-image: url(/img/logo.png);
+}
+.sidebar ul li a:hover {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.sidebar h3 {
+    font-size: 22px;
+    color: blueviolet;
+}
+
+.sidebar ul li a {
+    font-size: 19px;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+
+#leftsidebar {
+    float: left;
+    margin-left: 68px;
+}
+
+
+#rightsidebar {
+    float: right;
+    margin-right: 68px;
+}
+
+.footer {
+    height: 40px;
+    width: 85%;
+    background: linear-gradient(grey, black);
+    margin: 0 auto;
+   margin-top: 10px;
+   padding: 8px 39px;
+}
