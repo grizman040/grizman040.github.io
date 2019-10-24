@@ -4,7 +4,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+#login {
+    margin-bottom: 700px;
+    margin left: 500px;
+}
 #section-2 {
     background-color: rgb(204, 21, 37);
     height: 100vh;
@@ -72,3 +75,18 @@ footer {
     color: aliceblue;
     text-align: center;
 }
+
+form {
+    border: 1px solid;
+    color: gray;
+    padding: 4px;
+  }
+  
+  form:focus-within {
+    background: #ff8;
+    color: black;
+  }
+  
+  input {
+    margin: 4px;
+  }

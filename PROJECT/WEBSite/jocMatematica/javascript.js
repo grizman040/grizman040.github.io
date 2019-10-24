@@ -24,6 +24,7 @@ document.getElementById("startGame").onclick = function () {
 hide("theme");
 
 
+
         //start CountDown
         startCountdown();
         // generate QA
@@ -82,7 +83,7 @@ function startCountdown() {
             hide("correctAnswer");
             hide("wrongAnswer");
             playing = false;
-            document.getElementById("startGame").innerHTML = "Start Joc";
+            document.getElementById("startGame").innerHTML = "Start Game";
         }
     }, 1000);
 
