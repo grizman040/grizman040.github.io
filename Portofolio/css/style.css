@@ -68,7 +68,7 @@ font-size: 20px
     height: 100%;
     width: 100%;
     margin: auto;
-    background-image: url(img/architecture-bridge-building-220769.jpg);
+    background-image: url(../img/architecture-bridge-building-220769.jpg);
     display: table;
     top: 0;
     background-size: cover;
@@ -176,7 +176,7 @@ padding: 30px;
 /**-----------Form----------------**/
 .contact-body {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 150, 0.5),rgba(0, 50, 0, 0.5)),url(img/joker.jpg);
+    background: linear-gradient(rgba(0, 0, 150, 0.5),rgba(0, 50, 0, 0.5)),url(../img/joker.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
