@@ -17,7 +17,7 @@
     position: relative;
 }
 .skillBG {
-    background-image: url(/img/teren.jpg);
+    background-image: url(../img/teren.jpg);
 }
 .profile{
     width: 400px;
