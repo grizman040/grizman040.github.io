@@ -109,8 +109,8 @@ function generateQA() {
 
     var x = 1 + Math.round(9 * Math.random());
     var y = 1 + Math.round(9 * Math.random());
-    correctAnswer = x * y;
-    document.getElementById("question").innerHTML = x + " x " + y;
+    correctAnswer = x + y;
+    document.getElementById("question").innerHTML = x + " + " + y;
 
     var correctPosition = 1 +
         Math.round(3*Math.random());
@@ -123,7 +123,7 @@ function generateQA() {
             var wrongAnswer;
             do {
                 wrongAnswer =
-                    (1 + Math.round(9 * Math.random())) *
+                    (1 + Math.round(9 * Math.random())) +
                     (1 + Math.round(9 * Math.random())); //wrong answer
             } while (answers.indexOf(wrongAnswer) > -1)
             document.getElementById("box" + i).innerHTML = wrongAnswer;
