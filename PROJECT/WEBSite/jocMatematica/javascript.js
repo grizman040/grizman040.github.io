@@ -128,8 +128,6 @@ function generateQA() {
             } while (answers.indexOf(wrongAnswer) > -1)
             document.getElementById("box" + i).innerHTML = wrongAnswer;
             answers.push(wrongAnswer);
-
-
         }
     }
 
